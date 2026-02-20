@@ -55,7 +55,7 @@ export default function CompetitionPage({ isNew }) {
         };
 
         if (isNew) {
-            const newId = addCompetition(payload);
+            addCompetition(payload);
             // MOCK: simulate navigate to detail view eventually
             navigate('/');
         } else {

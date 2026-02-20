@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { useCompetition } from '../hooks/useCompetition';
 import { useParticipants } from '../hooks/useParticipants';

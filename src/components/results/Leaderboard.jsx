@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
 import { TrophyIcon } from '@heroicons/react/24/solid';
 
-export default function Leaderboard({ participants, rounds, medalRules }) {
+export default function Leaderboard({ participants, rounds }) {
     // Sort by overall rank automatically
     const sorted = useMemo(() => {
         return [...participants].sort((a, b) => {

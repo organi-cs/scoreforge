@@ -78,7 +78,7 @@ export function useParticipants(competitionId) {
         }
     };
 
-    const updateBulkParticipants = async (updates) => {
+    const updateBulkParticipants = async () => {
         // Mock placeholder
     };
 
